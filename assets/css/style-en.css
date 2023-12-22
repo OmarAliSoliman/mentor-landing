@@ -938,15 +938,34 @@ footer .privacyplicy a{
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: relative;
+}
+
+.breadcrumb .breadcrumb-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.breadcrumb .breadcrumb-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .2;
 }
 
 .breadcrumb h5{
   font-size: 32px;
+  position: relative;
+  z-index: 5;
 }
 
 .breadcrumb ul li a{
-  color: #999;
-
+  color: #666;
+  position: relative;
+  z-index: 5;
 }
 
 .breadcrumb ul li{
@@ -957,7 +976,7 @@ footer .privacyplicy a{
   position: absolute;
   content: "/";
   right: -3px;
-  color: #999;
+  color: #666;
 }
 
 .breadcrumb ul li:last-child::after{
