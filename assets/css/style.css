@@ -813,6 +813,8 @@ footer ul li a:hover {
   border-radius: 0;
 }
 
+
+
 @media (max-width: 1024px) {
   .header-parent .header-content {
     padding-right: 0 !important;

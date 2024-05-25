@@ -1016,6 +1016,16 @@ footer .privacyplicy a{
   font-family: mainfontmed;
 }
 
+.framework_wrapper .framework_card{
+  /* text-align: center; */
+  width: fit-content;
+  /* border: 1px solid #000; */
+}
+
+.framework_wrapper .framework_card img{
+  width: 100px;
+}
+
 @media (max-width: 1024px) {
   .header-parent .header-content {
     padding-left: 0 !important;
@@ -1170,6 +1180,9 @@ footer .privacyplicy a{
   }
   .header-parent .header .header-content .header-download a img{
     margin-left: 10px;
+  }
+  .framework_img_wrapper{
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 600px) {
