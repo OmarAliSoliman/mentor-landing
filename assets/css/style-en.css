@@ -1026,6 +1026,18 @@ footer .privacyplicy a{
   width: 100px;
 }
 
+.framework_wrapper .framework_card .card_icon{
+  height: 120px;
+  /* border: 1px solid #000; */
+}
+
+.framework_wrapper .framework_card_1 img{
+  width: 90px;
+}
+.framework_wrapper .framework_card_2 img{
+  width: 110px;
+}
+
 @media (max-width: 1024px) {
   .header-parent .header-content {
     padding-left: 0 !important;
